@@ -1,0 +1,13 @@
+1. Install Aptos CLI: aptos --version
+
+2. Create project: aptos move init --name carro_race
+
+3. Replace sources/ with the code above.
+
+4. Compile & publish:
+aptos move compile
+aptos move publish --profile default
+
+5. Call create_collection once, then mint_carro and start_race from your wallet (Petra, Martian, etc.).
+
+
